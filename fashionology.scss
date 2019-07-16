@@ -1,0 +1,22 @@
+html, 
+body {
+  margin: 0;
+  padding: 10px;
+  background: darken(whitesmoke, 10%);
+}
+  .container{
+    margin-top: 35px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+
+    li {
+        display: inline;
+        list-style-type:none;
+      }
+
+   img{
+    height: auto;
+    width: 100%;
+   }
+ }

@@ -1,0 +1,109 @@
+/* GLOBAL */
+html,
+body {
+  margin: 0;
+  background: gainsboro;
+}
+
+a:hover, .fas:hover, .fab:hover {
+  color: rgb(241, 111, 24);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.container {
+  margin-top: 35px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.container li {
+  display: inline;
+  list-style-type: none;
+}
+
+.container img {
+  height: auto;
+  width: 100%;
+}
+/*# sourceMappingURL=fashionology.css.map */
+
+/* NAVBAR */
+nav {
+  margin-top: 1rem;
+}
+
+.top-content ul {
+  list-style: none;
+}
+
+.top-content ul li:before {
+  content: '✓';
+  padding-right: 5px;
+  font-weight: bolder;
+}
+
+.top-content li {
+  display: inline;
+  padding: 10px;
+}
+
+.top-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******/
+
+.main-menu {
+  display: flex;
+  align-content: center;
+  margin: 0 3rem 0 3rem;
+  padding: 1.5rem;
+}
+
+.left-side {
+  margin-right: auto;
+}
+
+.left-side a, .right-side a, .right-side .fas {
+  padding: 0.6rem;
+  color: black;
+}
+
+.right-side {
+margin-left: auto;
+}
+
+/* FOOTER */
+
+.final-info, .copyright {
+  display: flex;
+  justify-content: center;  
+}
+
+footer a {
+  padding: 1.5rem;
+  text-decoration: none;
+}
+
+footer .fab, footer a {
+  color: black;
+}
+
+.fab {
+  font-size: 1.2rem;
+}
+
+.copyright {
+  display: flex;
+  align-content: center;
+}
+
+.copyright a {
+  padding: 0.3rem;
+}

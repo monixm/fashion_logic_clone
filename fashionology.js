@@ -33,6 +33,6 @@ button.onclick = function() {
     .catch(function(error) {
       // tutaj osblugujemy bledy popelnione w wywolaniu zwrotnym powyzej
       // czyli w funkcji .then(...)
-      console.warn('Nasz error:', error);
+      console.warn('Masz error:', error);
     });
 }
